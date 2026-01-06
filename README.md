@@ -33,3 +33,13 @@ Time Required: ~47 hours
 Daily Commitment: ~2.3 hours/day
 
 Verdict: Very Feasible. You have 20 days to finish, which allows for a steady, relaxed pace.
+
+JavaScript Track (12-13 exercises/day)
+Jan 6 – Jan 16, 2026
+C++ Track (3-4 exercises/day)
+Jan 6 – Jan 31, 2026
+Low-effort, consistent practice.
+TypeScript Track (10 exercises/day)
+Jan 17 – Jan 26, 2026
+Python Track (7 exercises/day)
+Feb 9 – Feb 28, 2026
