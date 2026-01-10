@@ -1,0 +1,14 @@
+name: Auto-merge Exercism Syncs
+on:
+  pull_request:
+    types: [opened, labeled, synchronize]
+
+jobs:
+  automage:
+    runs-on: ubuntu-latest
+    if: github.actor == 'exercism-solutions-syncer'
+    steps:
+      - name: Merge PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge "${{ github.event.pull_request.html_url }}" --merge --auto
